@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangbyoungchan/server.git"
+  },
+  "keywords": [
+    "backend",
+    "sample"
+  ],
+  "author": "jang byoung chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jangbyoungchan/server/issues"
+  },
+  "homepage": "https://github.com/jangbyoungchan/server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
