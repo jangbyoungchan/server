@@ -10,7 +10,7 @@ router.post("/chart", (req, res) => {
         headers: {
             Accept: "*/*",
             "User-Agent": "Thunder Client (https://www.thunderclient.com)",
-            Referer: "req.body.referer",
+            Referer: `${req.body.referer}`,
         },
     };
 
