@@ -19,6 +19,7 @@ app.use(bodyParser.json()); //json 받기
 stockCron.cronJobs(); // cron등록
 
 app.use("/api/stock", require("./routes/stock")); //stock route 등록
+app.use("/api/daum", require("./routes/daum")); //daum route 등록
 
 app.get("/", (req, res) => {
     res.send("Hello World!");
