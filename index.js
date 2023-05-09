@@ -1,5 +1,5 @@
 const express = require("express");
-const env = require("./config/env"); //환경구성
+const env = require("./config/env"); //환경설정
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
